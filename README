@@ -1,0 +1,15 @@
+-Name $VMName: Este parámetro establece el nombre de la máquina virtual. No necesitas cambiar esto ya que $VMName se obtiene del archivo CSV.
+
+-MemoryStartupBytes $Memory: Este parámetro establece la memoria de inicio de la máquina virtual. No necesitas cambiar esto ya que $Memory se obtiene del archivo CSV.
+
+-BootDevice VHD: Este parámetro establece el dispositivo de arranque de la máquina virtual. En este caso, se está configurando para arrancar desde un disco duro virtual (VHD).
+
+-Path ‘F:\VMs’: Este parámetro especifica la ruta donde se almacenarán los archivos de configuración de la máquina virtual. Deberías cambiar 'F:\VMs' a la ruta donde deseas almacenar los archivos de configuración de tus máquinas virtuales.
+
+-NewVHDPath $Disk: Este parámetro especifica la ruta del nuevo disco duro virtual (VHD) para la máquina virtual. No necesitas cambiar esto ya que $Disk se genera en el script.
+
+-NewVHDSize 20GB: Este parámetro especifica el tamaño del nuevo disco duro virtual (VHD). Puedes cambiar 20GB al tamaño que desees para el disco duro virtual.
+
+-Generation 2: Este parámetro especifica la generación de la máquina virtual. Las máquinas virtuales de generación 2 tienen características adicionales, como la capacidad de arrancar desde un disco duro virtual o una red.
+
+-Switch ‘My Virtual Switch’: Este parámetro conecta la máquina virtual a un switch virtual. Deberías cambiar 'My Virtual Switch' al nombre de tu switch virtual.
